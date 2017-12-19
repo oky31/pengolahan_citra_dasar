@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 
 def main():
     # membaca citra dengan warna default
-    citra = cv2.imread('citra/citra2.jpg')
+    citra = cv2.imread('citra/citra1.jpg')
 
     # mengkonversi warna citra dari RGB ke HSV
     citra_hsv = cv2.cvtColor(citra,cv2.COLOR_BGR2HSV)
