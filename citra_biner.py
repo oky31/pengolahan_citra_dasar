@@ -8,7 +8,7 @@ def main():
 
     # merubah menjadi citra biner
     # dengan fungsi bawaan openCv
-    ret,tresh = cv2.threshold(citra,127,255,cv2.THRESH_BINARY)
+    ret,tresh = cv2.threshold(citra,117,255,cv2.THRESH_BINARY)
 
     plt.subplot(121)
     plt.imshow(citra,'gray')
