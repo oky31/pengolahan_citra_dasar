@@ -16,9 +16,6 @@ def main():
         for j in range(citra_binary.shape[1]):
             citra_binary_not[i][j] = ~citra_binary[i][j]
 
-    print(id(citra_binary))
-    print(id(citra_binary_not))
-
     plt.subplot(121)
     plt.imshow(citra_binary,'gray')
     plt.title("Citra Biner")
